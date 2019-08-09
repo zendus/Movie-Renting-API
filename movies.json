@@ -1,0 +1,26 @@
+{
+    "1": {
+        "Drama": "A score to settle",
+        "Action": "Batman Hush",
+        "Thriller": "Winter Ridge(2018)",
+        "Horror": "Boarding School(2018)"
+    },
+    "2": {
+        "Action": "Avengers Endgame(2019)",
+        "Drama": "Unplanned",
+        "Horror": "The Curse of La Llorona",
+        "Thriller": "The Mule(2018)"
+    },
+    "3": {
+        "Horror": "Pet Semetary(2019)",
+        "Action": "Cold Blood",
+        "Thriller": "Glass(2019)",
+        "Drama": "Into the Ashes"
+    },
+    "4": {
+        "Thriller": "Fantastic Beasts(2018)",
+        "Action": "Point Blank",
+        "Horror": "Truth or Dare(2018)",
+        "Drama": "Surviving Confession"
+    }
+}
