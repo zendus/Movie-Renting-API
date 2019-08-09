@@ -18,7 +18,6 @@ function homePage() {
     }).then(answer => {
         if (answer.genre === 'Drama') {
             classConstructor.drama();
-            // classConstructor.MoviesGenres.drama()
         } else if (answer.genre === 'Action') {
             classConstructor.action()
         } else if (answer.genre === 'Horror') {
@@ -32,10 +31,4 @@ function homePage() {
 }
 
 
-
-// const object = {
-//     homePage: homePage
-// }
-
-// const object = homePage;
 exports.homePage = homePage;
