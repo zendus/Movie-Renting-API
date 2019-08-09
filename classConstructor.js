@@ -86,7 +86,14 @@ class MoviesGenres {
         inquirer.prompt([{
             type: 'input',
             name: 'moneypaid',
-            message: 'Please input your card Number'
+            message: 'Please input your card Number',
+            validate: function (value) {
+                var pass = value.match(/^(\d{4}\-){3}\d{4}$/)
+                if (pass) {
+                    return true
+                }
+                return "Please input a valid card number (1234-1234-1234-1234)"
+            }
         },
         {
             type: 'input',
